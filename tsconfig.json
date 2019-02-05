@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2015"
+        ],
+        "allowJs": true,
+        "allowUnusedLabels": false,
+        "charset": "utf-8",
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "outDir": "./build",
+        "pretty": false,
+        "removeComments": true,
+        "rootDir": "./source",
+        "stripInternal": true,
+        "resolveJsonModule": true
+    },
+    "exclude": [
+        "test",
+        "asserts",
+        "docs",
+        "build",
+        "*.js"
+    ]
+}

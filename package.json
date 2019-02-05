@@ -1,0 +1,24 @@
+{
+  "name": "clients",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anton Pronin <pronin@hazpro.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.39",
+    "@types/mongodb": "^3.1.19",
+    "@types/node": "^10.12.21",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "@hazpro/auth": "^1.0.4",
+    "@hazpro/queue": "^1.0.7",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.1.13",
+    "winston": "^3.2.1"
+  }
+}
